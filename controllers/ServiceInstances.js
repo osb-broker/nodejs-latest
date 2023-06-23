@@ -5,11 +5,11 @@ const path = require("path");
 var ServiceInstances = require("../service/ServiceInstancesService");
 var MongoClient = require("mongodb").MongoClient;
 
-const url = process.env.BNPP_MONGO_CS;
+const url = ;
 
 const client = new MongoClient(url, {
   ssl: true,
-  tlsCAFile: process.env.bnpp_ca,
+  tlsCAFile: process.env.33d558dc-d56b-11e9-8bb3-6643e1ee2390,
 });
 
 module.exports.serviceInstanceDeprovisionUsingDELETE =
