@@ -7,6 +7,7 @@ COPY package*.json ./
 
 RUN npm install
 RUN npm install oas3-tools
+RUN npm install cors
 
 # Bundle app source
 COPY . .
