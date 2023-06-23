@@ -5,7 +5,7 @@ const path = require("path");
 var ServiceInstances = require("../service/ServiceInstancesService");
 var MongoClient = require("mongodb").MongoClient;
 
-const url = ;
+const url = mongodb://ibm_cloud_74ecf7bb_988d_47dc_b5b9_35bb280dc157:3f6e6b90c6ade47935ed3d018e8fd7fb77752fed029cab99c533c0925ab2e612@84ecbf9c-3a96-494e-8b67-6431a7e8481c-0.blijtlfd05jdimoomdig.databases.appdomain.cloud:32648,84ecbf9c-3a96-494e-8b67-6431a7e8481c-1.blijtlfd05jdimoomdig.databases.appdomain.cloud:32648,84ecbf9c-3a96-494e-8b67-6431a7e8481c-2.blijtlfd05jdimoomdig.databases.appdomain.cloud:32648/ibmclouddb?authSource=admin&replicaSet=replset;
 
 const client = new MongoClient(url, {
   ssl: true,
